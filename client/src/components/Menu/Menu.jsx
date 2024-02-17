@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Menu.css';
 import { Link, useNavigate } from 'react-router-dom';
-import { useGlobalContext } from '../../context/GlobalContext';
+import { useGlobalContext } from '../../functions/GlobalContext';
 import { allLocalData } from '../../api/parseServerData';
 
 const Menu = (props) => {

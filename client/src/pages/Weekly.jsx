@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ChallengeCategory from '../components/ChallengeCategory/ChallengeCategory';
 import img from '../assets/production/background-img/background_Home.jpg';
-import { useGlobalContext } from '../context/GlobalContext';
+import { useGlobalContext } from '../functions/GlobalContext';
 
 const Weekly = (props) => {
 

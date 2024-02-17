@@ -12,12 +12,12 @@ import SeasonalReward from './pages/SeasonalReward';
 import TimeSensitive from './pages/TimeSensitive';
 import NotFoundPage from './pages/NotFoundPage';
 // Import Components
-import Menu from './layouts/Menu';
-import FootNav from './layouts/FootNav';
+import Menu from './components/Menu';
+import FootNav from './components/FootNav';
 // Import Utils/Data
-import parsedSeasonalChallenges from './data/parsedSeasonalChallenges';
+import parsedSeasonalChallenges from './functions/parsedSeasonalChallenges';
 // import ScrollHook from './hooks/ScrollHook';
-import { useGlobalContext } from './context/GlobalContext';
+import { useGlobalContext } from './functions/GlobalContext';
 // CSS
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
