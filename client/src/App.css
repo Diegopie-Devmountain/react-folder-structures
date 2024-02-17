@@ -1,0 +1,192 @@
+:root {
+  --App-Main-Color-solid: rgb(89, 116, 146);
+  --App-Main-Color-t1: rgba(131, 116, 170, 0.8);
+  --App-Secondary-Color-solid: rgb(111, 137, 168);
+  --App-Secondary-Color-t1: rgba(113, 147, 185, 0.8);
+  --App-Secondary-Color-t2: rgba(113, 147, 185, 0.5);
+  --App-Highlight-One: rgb(228, 205, 236);
+} 
+body {
+  background-color: var(--App-Secondary-Color-solid);
+  color: white !important;
+}
+
+.darkMode {
+  background-color: #2A2C2E;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit
+}
+
+select {
+  background-color: var(--App-Secondary-Color-t1);
+  color: #f1f1f1;
+  text-align: center;
+  border-radius: 8px;
+  filter: drop-shadow(1px 1px 0.5px #696969);
+}
+
+select option {
+  background: var(--App-Secondary-Color-t2);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.App-Link {
+  text-decoration: underline !important;
+}
+
+.App-scrollLock {
+  overflow: hidden;
+}
+
+.App-backImg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--App-Secondary-Color-solid);
+}
+
+.App-dropShadow {
+  filter: drop-shadow(3px 4px 2px #474747);
+}
+
+.App-DropShadow-2 {
+  filter: drop-shadow(1px 1px 0.5px #696969);
+}
+
+.App-backMaxHeight {
+  height: 100vh;
+}
+
+.App-FlexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.App-TextCenter {
+  text-align: center;
+}
+
+.App-zIndex-1 {
+  z-index: 1;
+}
+
+.App-zIndex-2 {
+  z-index: 2;
+}
+
+.App-PushBottomUp {
+  padding-bottom: 5rem;
+}
+
+.App-Button {
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  border-style: none;
+  border-radius: 3px;
+}
+
+/* .App-Button:hover {
+  height: 2rem;
+} */
+
+.App-Invisible-Img {
+  height: 0px;
+  opacity: 0;
+}
+
+.backgroundImg-Home {
+  background-image: url("./assets/production/background-img/home.jpg");
+  min-height: 100vh;
+}
+
+.backgroundImg-Weekly {
+  background-image: url("./assets/production/background-img/background_Home.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-Weekly-small {
+    background-image: url("./assets/production/background-img/background_Home-small.jpg");
+    min-height: 100vh;
+  }
+
+.backgroundImg-Activities {
+  background-image: url("./assets/production/background-img/background_Activities.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-Activities-small {
+    background-image: url("./assets/production/background-img/background_Activities-small.jpg");
+    min-height: 100vh;
+  }
+
+.backgroundImg-XP {
+  background-image: url("./assets/production/background-img/background_XP.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-XP-small {
+    background-image: url("./assets/production/background-img/background_XP-small.jpg");
+    min-height: 100vh;
+  }
+
+.backgroundImg-Dust {
+  background-image: url("./assets/production/background-img/background_Dust.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-Dust-small {
+    background-image: url("./assets/production/background-img/background_Dust-small.jpg");
+    min-height: 100vh;
+  }
+
+.backgroundImg-SeasonalReward {
+  background-image: url("./assets/production/background-img/background_Generic.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-SeasonalReward-small {
+    background-image: url("./assets/production/background-img/background_Generic-small.jpg");
+    min-height: 100vh;
+  }
+
+.backgroundImg-Time {
+  background-image: url("./assets/production/background-img/background_Time.jpg");
+  min-height: 100vh;
+}
+  .backgroundImg-Time-small {
+    background-image: url("./assets/production/background-img/background_Time-small.jpg");
+    min-height: 100vh;
+  }
+
+body>iframe {
+  pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 199, 199);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 1000px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+}

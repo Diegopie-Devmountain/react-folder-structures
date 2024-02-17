@@ -1,0 +1,64 @@
+.Home-Container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Home-Title {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 2.3rem;
+  }
+  
+  .Home-text {
+    text-align: center;
+    padding: 2rem 15% 7%;
+    text-shadow: 0.5px 0.8px #000000;
+    filter: drop-shadow(4px 4px 6px black);
+  }
+
+  .Form-text {
+    text-align: center;
+    text-shadow: 0.5px 0.8px #000000;
+    filter: drop-shadow(4px 4px 6px black);
+  }
+
+  .iFrame {
+    width: 560px;
+    height: 315px;
+    transition: 350ms;
+  }
+  
+  .Home-button {
+    margin-top: 6%!important;
+    background-color: #7ebcec;
+    border: solid;
+    color: white;
+    border-radius: 8%;
+    padding: 0.4rem 0.9rem;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+  }
+    .Home-button:hover {
+        border-color: #A09EF0;
+        color: #A09EF0;
+        text-decoration: none;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+      .iFrame {
+        width: 360px;
+        height: 215px;
+        transition: 350ms;
+      }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .iFrame {
+      width: 300px;
+      height: 175px;
+      transition: 350ms;
+    }
+}
