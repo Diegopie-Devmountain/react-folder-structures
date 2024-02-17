@@ -1,4 +1,4 @@
-import { useGlobalContext } from "../../../context/GlobalContext";
+import { useGlobalContext } from "../../../functions/GlobalContext";
 
 const DropUpMenu = (props) => {
 

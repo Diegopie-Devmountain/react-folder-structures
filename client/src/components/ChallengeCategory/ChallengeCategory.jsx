@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ChallengeCard from './components/ChallengeCard';
-import ChallengeProvider from './context/ChallengeContext';
-import './ChallengeCategory.css';
-import { useGlobalContext } from '../../context/GlobalContext';
+import ChallengeProvider from '../../functions/ChallengeContext';
+import '../../css/ChallengeCategory.css';
+import { useGlobalContext } from '../../functions/GlobalContext';
 
 const ChallengeCategory = (props) => {
     const challengesRemainingID = props.name + '-challengesRemaining';

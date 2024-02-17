@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
-import parsedSeasonalChallenges from '../data/parsedSeasonalChallenges';
+import parsedSeasonalChallenges from './parsedSeasonalChallenges';
 
 export const GlobalContext = createContext();
 

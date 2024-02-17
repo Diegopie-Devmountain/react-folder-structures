@@ -1,5 +1,5 @@
 import React from 'react';
-import { useChallengeContext } from '../context/ChallengeContext.js';
+import { useChallengeContext } from '../../../functions/ChallengeContext.js';
 import ChallengeObjectives from './ChallengeObjectives';
 import ChallengeReward from './ChallengeReward';
 import './ChallengeCard.css';

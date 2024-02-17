@@ -63,7 +63,7 @@
         left: 4px;
         top: .1rem;
         background-color: #383838;
-        background-image: url('../../assets/production/moonIcon.svg');
+        background-image: url('../assets/production/moonIcon.svg');
         
         background-position: center;
         background-repeat: no-repeat;
@@ -84,7 +84,7 @@
         -ms-transform: translateX(85%);
         transform: translateX(85%);
         background-color: red;
-        background-image: url('../../assets/production/sunIcon.svg');
+        background-image: url('../assets/production/sunIcon.svg');
         }
     .HideCompleted-slider.HideCompleted-round {
         border-radius: 34px;

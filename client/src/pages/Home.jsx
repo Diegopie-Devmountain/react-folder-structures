@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { postNewUser } from '../api/server-data';
-import './Page.css'
+import '../css/Page.css'
 import { toast } from 'react-toastify';
 
 const Home = () => {
